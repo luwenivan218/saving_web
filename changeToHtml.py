@@ -2,7 +2,6 @@
 # -*- coding: UTF-8 -*-
 import os
 import random
-import codecs
 
 path = "/home/docker-compose/nginx/html/static/saving_web"
 # <meta charset="UTF-8">
@@ -98,5 +97,5 @@ setInterval(setTime, 1000)
 </script>
 '''
 print(tmp)
-f = codecs.open(path + '/index.htm','w','utf-8')
+f = open(path + '/index.htm','w')
 f.write(tmp)
