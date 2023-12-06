@@ -53,7 +53,7 @@ function search(txt){
 			content[i].style.display = "block"
 		}
 	}
-	document.querySelector("input").value= ""
+	// document.querySelector("input").value= ""
 }
 
 // 时钟
